@@ -4,19 +4,18 @@ using namespace std;
 // FizzBuzz
 
 int main() {
- 
+
     int broj;
     cout << "Upisi broj: ";
     cin >> broj;
 
     if (broj % 3 == 0 && broj % 5 == 0) {
-            cout << "FizzBuzz!";
+        cout << "FizzBuzz!" << endl;
     }
-    else if (broj % 3 == 0) {
-            cout << "Fizz";
+        if (broj % 3 == 0) {
+            cout << "Fizz" << endl;
         }
-        else if (broj % 5 == 0) {
-            cout << "Buzz";
-        }
-
+          if (broj % 5 == 0) {
+              cout << "Buzz" << endl;
+          }
 }

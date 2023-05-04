@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dodatni zadatci s interneta", "Machina_zadatci\Machina_zadatci.vcxproj", "{3810D59B-EAB5-484A-93C0-8AAE79F87BAB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Razni zadaci s interneta", "Machina_zadatci\Machina_zadatci.vcxproj", "{3810D59B-EAB5-484A-93C0-8AAE79F87BAB}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KrizicKruzic", "KrizicKruzic\KrizicKruzic.vcxproj", "{60370262-72A5-4EFE-B9BE-F5297BC028BD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ispis svih ASCII znakova", "Ispis svih ASCII znakova\Ispis svih ASCII znakova.vcxproj", "{29BAFB61-6ADA-4499-9F81-4A1816E121A3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBuzz.vcxproj", "{D6A90083-843C-42BF-B527-2BF19F6579B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skoro pa pravi Šah", "Skoro pa pravi Šah\Skoro pa pravi Šah.vcxproj", "{27C3C7D0-8243-475D-878F-BC13646543A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{D6A90083-843C-42BF-B527-2BF19F6579B2}.Release|x64.Build.0 = Release|x64
 		{D6A90083-843C-42BF-B527-2BF19F6579B2}.Release|x86.ActiveCfg = Release|Win32
 		{D6A90083-843C-42BF-B527-2BF19F6579B2}.Release|x86.Build.0 = Release|Win32
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Debug|x64.ActiveCfg = Debug|x64
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Debug|x64.Build.0 = Debug|x64
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Debug|x86.Build.0 = Debug|Win32
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x64.ActiveCfg = Release|x64
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x64.Build.0 = Release|x64
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x86.ActiveCfg = Release|Win32
+		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
