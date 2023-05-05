@@ -94,5 +94,6 @@ int main() {
 			trenutni_potez = 'x';
 		}
 	}
+	return 0;
 
 }

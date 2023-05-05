@@ -20,10 +20,59 @@ pothvat, ali ono što možete napraviti je:
 
 Bonus bodovi za sve dodatne detalje koje isprogramirate tako da igra bude 
 što bliža stvarnim pravilima šaha. (En passant, pinned pieces, ...)
+
+P.S.
+Za predstavljanje figura kod ispisa možete koristiti notaciju sličnu FEN-u:
+K - kralj, Q - kraljica, R - kula, N - skakač, B - lovac, P - pješak
+crne figure predstavljene malim, a bijele velikim slovom
+Početno stanje ploče bi onda izgledalo:
+rnbqkbnr
+pppppppp
+........
+........
+........
+........
+PPPPPPPP
+RNBQKBNR
 */
 
 int main() {
 
+	// Reprezentacija šahovske ploče
+	char ploča[64] = {
+		'r', 'n', 'b', 'q', 'k', 'b', 'n', 'r',
+		'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p',
+		'.', '.', '.', '.', '.', '.', '.', '.',
+		'.', '.', '.', '.', '.', '.', '.', '.',
+		'.', '.', '.', '.', '.', '.', '.', '.',
+		'.', '.', '.', '.', '.', '.', '.', '.',
+		'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P',
+		'R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R',
+	};
+
+
+	string player1 = "Bijeli";
+	string player2 = "Crni";
+
+	string trenutni_potez = player1;
+
+	for (int i = 0; i < 64; i++) {
+		array[i] = ' ';
+		cout << "Dobrodošli u partiju šaha";
+	}
+
+	while (true) {
+
+
+
+
+
+
+	}
+
+
+
+	// Prvi potez na bijelom igraču
 
 
 

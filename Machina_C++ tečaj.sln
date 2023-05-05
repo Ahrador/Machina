@@ -13,6 +13,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skoro pa pravi Šah", "Skoro pa pravi Šah\Skoro pa pravi Šah.vcxproj", "{27C3C7D0-8243-475D-878F-BC13646543A8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 3 - Nizovi i petlje", "Predavanje 3 - Nizovi i petlje\Predavanje 3 - Nizovi i petlje.vcxproj", "{8B76689A-420A-489B-AA8B-D9C42283DDAA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 2 - Operatori", "Predavanje 2 - Operatori\Predavanje 2 - Operatori.vcxproj", "{D2EF6963-94AF-48E8-894F-F8B247CA13A5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 1 - Varijable i tipovi podataka", "Predavanje 1 - Varijable i tipovi podataka\Predavanje 1 - Varijable i tipovi podataka.vcxproj", "{12688934-7E5B-4F7F-A05D-4938A2D93BF5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vježbanje - Petlje", "Vježbanje - Petlje\Vježbanje - Petlje.vcxproj", "{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +69,38 @@ Global
 		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x64.Build.0 = Release|x64
 		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x86.ActiveCfg = Release|Win32
 		{27C3C7D0-8243-475D-878F-BC13646543A8}.Release|x86.Build.0 = Release|Win32
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Debug|x64.ActiveCfg = Debug|x64
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Debug|x64.Build.0 = Debug|x64
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Debug|x86.ActiveCfg = Debug|Win32
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Debug|x86.Build.0 = Debug|Win32
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Release|x64.ActiveCfg = Release|x64
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Release|x64.Build.0 = Release|x64
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Release|x86.ActiveCfg = Release|Win32
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA}.Release|x86.Build.0 = Release|Win32
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Debug|x64.ActiveCfg = Debug|x64
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Debug|x64.Build.0 = Debug|x64
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Debug|x86.Build.0 = Debug|Win32
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Release|x64.ActiveCfg = Release|x64
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Release|x64.Build.0 = Release|x64
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Release|x86.ActiveCfg = Release|Win32
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5}.Release|x86.Build.0 = Release|Win32
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Debug|x64.ActiveCfg = Debug|x64
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Debug|x64.Build.0 = Debug|x64
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Debug|x86.ActiveCfg = Debug|Win32
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Debug|x86.Build.0 = Debug|Win32
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Release|x64.ActiveCfg = Release|x64
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Release|x64.Build.0 = Release|x64
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Release|x86.ActiveCfg = Release|Win32
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5}.Release|x86.Build.0 = Release|Win32
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Debug|x64.ActiveCfg = Debug|x64
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Debug|x64.Build.0 = Debug|x64
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Debug|x86.ActiveCfg = Debug|Win32
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Debug|x86.Build.0 = Debug|Win32
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x64.ActiveCfg = Release|x64
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x64.Build.0 = Release|x64
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x86.ActiveCfg = Release|Win32
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
