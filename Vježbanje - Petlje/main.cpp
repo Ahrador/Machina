@@ -78,6 +78,8 @@ int main() {
 	*/
 
 
+	// If statements
+
 	/*
 	Write a program that asks the user to enter a number and then prints 
 	whether the number is positive or negative.
@@ -153,8 +155,82 @@ int main() {
 	else {
 		cout << "Access denied";
 	}
-		
 	
+	
+	/*
+	Write a program that asks the user to enter a number between 1 and 10. 
+	If the number is less than 5, print "Too low". If the number is greater 
+	than 5, print "Too high". If the number is equal to 5, print "Just right!".
+	*/
+
+	cout << "Enter a number between 1 and 10: ";
+	int numbario;
+	cin >> numbario;
+
+	if (numbario < 5) {
+		cout << "Too low";
+	}
+	else if (numbario > 5) {
+		cout << "Too high";
+	}
+	else if (numbario == 5) {
+		cout << "Just right!";
+	}
+
+	
+	/*
+	Write a program that asks the user to enter three numbers and then prints 
+	the largest of the three numbers.
+	*/
+	
+	int first_broj, second_broj, third_broj, largest;
+	cout << "Enter three numbers: ";
+	cin >> first_broj >> second_broj >> third_broj;
+
+	if (first_broj >= second_broj && first_broj >= third_broj) {
+		largest = first_broj;
+	}
+	else if (second_broj >= first_broj && second_broj >= third_broj) {
+		largest = second_broj;
+	}
+	else {
+		largest = third_broj;
+	}
+
+	cout << "The largest number is " << largest << endl;
+
+
+	// While petlje
+
+	/*
+	Write a program that asks the user to enter a positive integer and then 
+	displays the sum of all the integers from 1 to that number.
+	*/
+
+	cout << "Input a positive integer: ";
+	int pozitivni_broj;
+	cin >> pozitivni_broj;
+	int sumaaa = 0;
+
+	while (pozitivni_broj < 1) {
+		cout << "Invalid input. Enter a positive integer: ";
+		cin >> pozitivni_broj;
+	}
+
+	int i = 1;
+	while (i <= pozitivni_broj) {
+		sumaaa += i;
+		i++;
+	}
+	cout << "The sum of all integers from 1 to " << pozitivni_broj << " is " << sumaaa << endl;
+	return 0;
+		
+
+
+
+
+
+
 
 
 }
