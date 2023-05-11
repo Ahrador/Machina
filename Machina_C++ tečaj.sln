@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 1 - Varijable i 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vježbanje - Petlje", "Vježbanje - Petlje\Vježbanje - Petlje.vcxproj", "{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 4 - Funkcije", "Predavanje 4 - Funkcije\Predavanje 4 - Funkcije.vcxproj", "{64DEA122-90F8-4F76-80D3-3F9031FB9D64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x64.Build.0 = Release|x64
 		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x86.ActiveCfg = Release|Win32
 		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE}.Release|x86.Build.0 = Release|Win32
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Debug|x64.ActiveCfg = Debug|x64
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Debug|x64.Build.0 = Debug|x64
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Debug|x86.ActiveCfg = Debug|Win32
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Debug|x86.Build.0 = Debug|Win32
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Release|x64.ActiveCfg = Release|x64
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Release|x64.Build.0 = Release|x64
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Release|x86.ActiveCfg = Release|Win32
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
