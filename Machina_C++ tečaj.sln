@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vježbanje - Nizovi, 1. dio
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - nizovi", "Objašnjenje - nizovi\Objašnjenje - nizovi.vcxproj", "{F1FACFBE-40E9-421A-AC38-5510CB42DB56}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - for petlje", "Objašnjenje - for petlje\Objašnjenje - for petlje.vcxproj", "{12E8F977-BEA6-4C62-AF40-0A5729ED1116}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{F1FACFBE-40E9-421A-AC38-5510CB42DB56}.Release|x64.Build.0 = Release|x64
 		{F1FACFBE-40E9-421A-AC38-5510CB42DB56}.Release|x86.ActiveCfg = Release|Win32
 		{F1FACFBE-40E9-421A-AC38-5510CB42DB56}.Release|x86.Build.0 = Release|Win32
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Debug|x64.ActiveCfg = Debug|x64
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Debug|x64.Build.0 = Debug|x64
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Debug|x86.ActiveCfg = Debug|Win32
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Debug|x86.Build.0 = Debug|Win32
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Release|x64.ActiveCfg = Release|x64
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Release|x64.Build.0 = Release|x64
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Release|x86.ActiveCfg = Release|Win32
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
