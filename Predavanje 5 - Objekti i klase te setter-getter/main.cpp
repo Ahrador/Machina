@@ -102,9 +102,9 @@ public:
 
 
 /*
-Razlika izmedu class i struc:
-- vidljivost:  class = private, struc = public	
-- Nasljeđivanje:  class = private, struc = public	
+Razlika izmedu class i struct:
+- vidljivost:  class = private, struct = public	
+- Nasljeđivanje:  class = private, struct = public	
 - Upotreba:  Klase za definiranje složenih objekata s internim stanjem 
 (privatnim članovima) i javnim sučeljem (javne metode). 
 Strukture za definiranje jednostavnih grupa podataka koje nemaju složeno ponašanje.
@@ -113,6 +113,7 @@ Strukture za definiranje jednostavnih grupa podataka koje nemaju složeno ponaš
 int main() {
 	// member access operator je '.'
 	// Stvaranje objekta klase Ucenik
+
 	Ucenik ucenik1;
 
 	// Postavljanje vrijednosti 
@@ -124,7 +125,6 @@ int main() {
 	// Prikaz informacija 
 	//ucenik1.prikaz_info_o_uceniku();
 	ucenik1.get_ocjena_math();
-}
 
 //--------------------------------------------------------------------------------
 

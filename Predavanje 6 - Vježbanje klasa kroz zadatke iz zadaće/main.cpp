@@ -60,7 +60,7 @@ KolicineKovanica funkcija(unsigned ubacen_novac, unsigned cijena) {
 Ova funkcija izračunava količine kovanica koje treba vratiti na temelju ulaznih 
 parametara ubacen_novac (ukupni iznos ubačen na račun) i cijena (cijena artikla). 
 U ovom primjeru, funkcija samo vraća praznu strukturu jer nema stvarnog izračuna.
-*/ 
+*/
 
 
 int main() {

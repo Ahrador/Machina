@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{2bd2587a-4b2a-4f24-851e-18d80ba89d60}</ProjectGuid>
-    <RootNamespace>Predavanje6Vježbanjeklasakrozzadatkeizzadaće</RootNamespace>
+    <ProjectGuid>{2af07285-0be7-4962-8db2-a286904093b8}</ProjectGuid>
+    <RootNamespace>Predavanje6VježbanjeCataloguezadatak</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Predavanje 6 - Vježbanje - Coin acceptor zadatak</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -43,7 +43,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - nizovi", "Ob
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - for petlje", "Objašnjenje - for petlje\Objašnjenje - for petlje.vcxproj", "{12E8F977-BEA6-4C62-AF40-0A5729ED1116}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje klasa kroz zadatke iz zadaće", "Predavanje 6 - Vježbanje klasa kroz zadatke iz zadaće\Predavanje 6 - Vježbanje klasa kroz zadatke iz zadaće.vcxproj", "{2BD2587A-4B2A-4F24-851E-18D80BA89D60}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje - Coin acceptor zadatak", "Predavanje 6 - Vježbanje klasa kroz zadatke iz zadaće\Predavanje 6 - Vježbanje klasa kroz zadatke iz zadaće.vcxproj", "{2BD2587A-4B2A-4F24-851E-18D80BA89D60}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje - Catalogue zadatak", "Predavanje 6 - Vježbanje - Catalogue zadatak\Predavanje 6 - Vježbanje - Catalogue zadatak.vcxproj", "{2AF07285-0BE7-4962-8DB2-A286904093B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -221,6 +223,14 @@ Global
 		{2BD2587A-4B2A-4F24-851E-18D80BA89D60}.Release|x64.Build.0 = Release|x64
 		{2BD2587A-4B2A-4F24-851E-18D80BA89D60}.Release|x86.ActiveCfg = Release|Win32
 		{2BD2587A-4B2A-4F24-851E-18D80BA89D60}.Release|x86.Build.0 = Release|Win32
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Debug|x64.ActiveCfg = Debug|x64
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Debug|x64.Build.0 = Debug|x64
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Debug|x86.Build.0 = Debug|Win32
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Release|x64.ActiveCfg = Release|x64
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Release|x64.Build.0 = Release|x64
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Release|x86.ActiveCfg = Release|Win32
+		{2AF07285-0BE7-4962-8DB2-A286904093B8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
