@@ -4,12 +4,12 @@
 
 // Zadatak: Vending machine - #1 - coin acceptor
 /*
-Napiši code koji glumi obračunavanje iznosa za vraćanje u kovanicama na 
+Napiši code koji glumi obračunavanje iznosa za vraćanje u kovanicama na
 samoposlužnim aparatima.
-- Aparat prima kovanice od €0.10, €0.20, €0.50, €1, €2. 
+- Aparat prima kovanice od €0.10, €0.20, €0.50, €1, €2.
 - Napiši strukturu "KolicineKovanica" koja predstavlja količine svakog od tih apoena.
-- Napiši funkciju koja prima stanje na računu na aparatu, cijenu artikla, i vraća 
-  strukturu tipa "KolicineKovanica" koja opisuje koliko kojih kovanica treba vratiti 
+- Napiši funkciju koja prima stanje na računu na aparatu, cijenu artikla, i vraća
+  strukturu tipa "KolicineKovanica" koja opisuje koliko kojih kovanica treba vratiti
   kupcu.
 - Funkcija treba prioritizirati vraćanje kovanica većeg apoena kad je to moguće.
 */
@@ -24,7 +24,7 @@ struct KolicineKovanica {
 };
 
 /*
-Ovdje definiramo strukturu KolicineKovanica koja sadrži pet varijabli tipa 
+Ovdje definiramo strukturu KolicineKovanica koja sadrži pet varijabli tipa
 unsigned koje predstavljaju količine različitih kovanica.
 */
 
@@ -43,7 +43,7 @@ KolicineKovanica pretvori_unsigned_u_kolicine_kovanica(unsigned iznos) {
 }
 
 /*
-Varijabla 'za_vratiti' se inicijalizira s nulama za sve količine kovanica, a zatim 
+Varijabla 'za_vratiti' se inicijalizira s nulama za sve količine kovanica, a zatim
 se vraća ta inicijalizirana struktura.
 */
 
@@ -57,8 +57,8 @@ KolicineKovanica funkcija(unsigned ubacen_novac, unsigned cijena) {
 }
 
 /*
-Ova funkcija izračunava količine kovanica koje treba vratiti na temelju ulaznih 
-parametara ubacen_novac (ukupni iznos ubačen na račun) i cijena (cijena artikla). 
+Ova funkcija izračunava količine kovanica koje treba vratiti na temelju ulaznih
+parametara ubacen_novac (ukupni iznos ubačen na račun) i cijena (cijena artikla).
 U ovom primjeru, funkcija samo vraća praznu strukturu jer nema stvarnog izračuna.
 */
 
@@ -66,14 +66,14 @@ U ovom primjeru, funkcija samo vraća praznu strukturu jer nema stvarnog izraču
 int main() {
 	// Deklaracija i inicijalizacija varijabli / ulaznih vrijednosti
 	unsigned ubacen_novac = 300;
-	unsigned cijena = 170; 
+	unsigned cijena = 170;
 
 	// Poziv funkcije za izračun količina kovanica
 	KolicineKovanica kolicine = funkcija(ubacen_novac, cijena);
 
 	/*
-	Ovdje pozivamo funkciju funkcija s argumentima ubacen_novac i cijena te rezultat 
-	pohranjujemo u varijablu kolicine tipa KolicineKovanica. To znači da će se 
+	Ovdje pozivamo funkciju funkcija s argumentima ubacen_novac i cijena te rezultat
+	pohranjujemo u varijablu kolicine tipa KolicineKovanica. To znači da će se
 	izračunate količine kovanica koje treba vratiti spremiti u kolicine.
 	*/
 
@@ -86,9 +86,9 @@ int main() {
 	std::cout << "2 eur: " << kolicine.kolicina_2eur << std::endl;
 
 	/*
-	Ovdje koristimo std::cout za ispis količina kovanica koje treba vratiti. Prvo 
-	ispisujemo zaglavlje "Kolicine kovanica za vratiti:", a zatim ispisujemo vrijednosti 
-	količina kovanica za svaku denominaciju (10 centa, 20 centa, 50 centa, 1 eura i 2 eura) 
+	Ovdje koristimo std::cout za ispis količina kovanica koje treba vratiti. Prvo
+	ispisujemo zaglavlje "Kolicine kovanica za vratiti:", a zatim ispisujemo vrijednosti
+	količina kovanica za svaku denominaciju (10 centa, 20 centa, 50 centa, 1 eura i 2 eura)
 	iz varijable kolicine.
 	*/
 
