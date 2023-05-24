@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #1 - Karte", "Kartaške igre - #1 - Karte\Kartaške igre - #1 - Karte.vcxproj", "{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #2 - osnovni Poker engine", "Kartaške igre - #2 - osnovni Poker engine\Kartaške igre - #2 - osnovni Poker engine.vcxproj", "{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -241,6 +243,14 @@ Global
 		{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}.Release|x64.Build.0 = Release|x64
 		{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}.Release|x86.ActiveCfg = Release|Win32
 		{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}.Release|x86.Build.0 = Release|Win32
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Debug|x64.ActiveCfg = Debug|x64
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Debug|x64.Build.0 = Debug|x64
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Debug|x86.Build.0 = Debug|Win32
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Release|x64.ActiveCfg = Release|x64
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Release|x64.Build.0 = Release|x64
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Release|x86.ActiveCfg = Release|Win32
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

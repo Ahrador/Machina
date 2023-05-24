@@ -3,31 +3,6 @@
 #include <Windows.h>
 using namespace std;
 
-// Funkcije - preostalo od prošlog predavanja
-// Procjena kvalitete funkcije rand() - generator slučajnih brojeva
-
-// daje broj izmedu (0, 49)
-int slucajni_broj_izmedu_0_i(int max) {
-	return rand() % max;
-}
-
-int main() {
-	const int BROJ_IZVLACENJA = 1'000'000;
-	const int BROJ_ELEMENATA = 50;
-	int broj_pojavljivanja[BROJ_ELEMENATA] = { 0 }; // inicijalizirano na 0 i stavlja prvog na 0
-
-	for (int i = 0; i < BROJ_IZVLACENJA; i++) // milijun puta se petlja pozove,
-		broj_pojavljivanja[slucajni_broj_izmedu_0_i(BROJ_ELEMENATA)]++;
-
-	const int OCEKIVANI_BROJ_POJAVLJIVANJA = BROJ_IZVLACENJA / BROJ_ELEMENATA;
-
-
-	for (int i = 0; i < 50; i++)
-		cout << "Broj " << i << " se pojavio " << broj_pojavljivanja[i] << " puta"
-		<< ", sto je " << (broj_pojavljivanja[i]-OCEKIVANI_BROJ_POJAVLJIVANJA) << " od ocekivanog" << endl;
-
-//---------------------------------------------------------------------------------------
-
 // Predavanje 5 - Objekti i klase te setter & getter
 // Rekurzija
 // stack overflow se dogodi kada funkcija pozove samu sebe.
