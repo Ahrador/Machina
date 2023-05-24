@@ -13,7 +13,7 @@
 - dodajte opciju Punjenje aparata. koja ubaci "proizvode" i kovanice u aparat.
 */
 
-// Broj kovanica različitih vrijednosti
+// Definira se struktura KolicineKovanica - predstavlja količinu kovanica različitih vrijednosti.
 struct KolicineKovanica {
 	unsigned kolicina_10cent;
 	unsigned kolicina_20cent;
@@ -22,10 +22,14 @@ struct KolicineKovanica {
 	unsigned kolicina_2eur;
 };
 
-// Ova funkcija pretvara cijeli broj u objekt tipa KolicineKovanica koji sadrži 
-// informacije o broju kovanica potrebnih za taj iznos.
+/*
+Definira se funkcija pretvori_unsigned_u_kolicine_kovanica koja pretvara cijeli broj 
+iznos u objekt tipa KolicineKovanica, koji sadrži informacije o broju kovanica 
+potrebnih za taj iznos.
+*/
 KolicineKovanica pretvori_unsigned_u_kolicine_kovanica(unsigned iznos) {
 	KolicineKovanica za_vratiti;
+
 	// inicijaliziraj strukturu
 	za_vratiti.kolicina_10cent = 0;
 	za_vratiti.kolicina_20cent = 0;
@@ -33,7 +37,10 @@ KolicineKovanica pretvori_unsigned_u_kolicine_kovanica(unsigned iznos) {
 	za_vratiti.kolicina_1eur = 0;
 	za_vratiti.kolicina_2eur = 0;
 
-	// prvo vrati vece
+	/*
+	Funkcija koristi algoritam za raspodjelu kovanica po vrijednostima, počevši od 
+	najveće vrijednosti (2 eura) prema najmanjoj (10 centi).
+	*/
 	if (iznos >= 200) {
 		za_vratiti.kolicina_2eur = iznos / 200;
 		iznos %= 200;
@@ -58,7 +65,10 @@ KolicineKovanica pretvori_unsigned_u_kolicine_kovanica(unsigned iznos) {
 	return za_vratiti;
 }
 
-// Ova funkcija izračunava količinu kovanica potrebnih za vraćanje kusura na temelju ubačenog novca i cijene proizvoda.
+/*
+Definira se funkcija izracunaj_kusur koja izračunava količinu kovanica potrebnih 
+za vraćanje kusura na temelju ubačenog novca i cijene proizvoda.
+*/
 KolicineKovanica izracunaj_kusur(unsigned ubacen_novac, unsigned cijena) {
 	KolicineKovanica za_vratiti;
 	// izracunati kolicinu za vratiti
@@ -76,7 +86,10 @@ KolicineKovanica izracunaj_kusur(unsigned ubacen_novac, unsigned cijena) {
 	return pretvori_unsigned_u_kolicine_kovanica(ostatak);
 }
 
-// Ova struktura predstavlja redak proizvoda u aparatu.
+/*
+Definira se struktura RedProizvoda koja predstavlja redak proizvoda u aparatu. 
+Svaki redak ima informacije o cijeni proizvoda i preostalom broju artikala.
+*/
 struct RedProizvoda {
 	//char ime_artikla[20];
 	unsigned cijena_artikla;
@@ -100,6 +113,7 @@ struct Aparat {
 		kolicine_kovanica.kolicina_50cent = 20;
 		kolicine_kovanica.kolicina_1eur = 20;
 		kolicine_kovanica.kolicina_2eur = 20;
+
 		// "napuni" katalog proizvoda
 		katalog[0].cijena_artikla = 150;
 		katalog[0].preostalo_artikala = 7;
@@ -131,14 +145,12 @@ void PrintSeparatorLine() {
 	std::cout << "------------------------------" << std::endl;
 }
 
-/*
-Stvara se objekt aparat i poziva se funkcija punjenjeAparata za inicijalizaciju aparata. 
-Zatim se pokreće glavna petlja koja se izvršava sve dok ne završi program.
-*/
 int main() {
+	// Stvara se objekt aparat i poziva se funkcija punjenjeAparata za inicijalizaciju aparata.
 	Aparat aparat;
 	aparat.punjenjeAparata();
 
+	// Zatim se pokreće glavna petlja koja se izvršava sve dok ne završi program.
 	while (true) {
 		PrintSeparatorLine();
 		// pokazi stanje robe
