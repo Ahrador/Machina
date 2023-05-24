@@ -198,4 +198,44 @@ int main() {
 			// &i -- pretovri se u adresu varijable 'i' i to se pretvori gore funkciji
 	}
 
-}
+
+
+	// Procjena kvalitete funkcije rand() - generator slučajnih brojeva
+
+	/*
+	Definiramo funkciju slucajni_broj_izmedu_0_i koja uzima jedan argument max i vraća slučajan broj
+	između 0 i max-1 koristeći operator modulo %.
+	*/
+		int slucajni_broj_izmedu_0_i(int max) {
+			return rand() % max;
+		}
+
+		// Početak funkcije 'main'
+		int main() {
+			// Definiramo dvije konstante:
+			const int BROJ_IZVLACENJA = 1'000'000;  // Broj izvlačenja koja predstavlja broj izvlačenja i postavljamo je na 1'000'000
+			const int BROJ_ELEMENATA = 50;         // te broj elementat koja predstavlja broj elemenata i postavljamo je na 50.
+
+			// Deklaracija i inicijalizacija niza broj_pojavljivanja na 0 
+			int broj_pojavljivanja[BROJ_ELEMENATA] = { 0 };  //  Ovaj niz će se koristiti za brojanje koliko puta se svaki broj pojavio.
+
+			/*
+			Petlja koja se izvršava BROJ_IZVLACENJA puta. U svakoj iteraciji, generiramo slučajni broj
+			između 0 i BROJ_ELEMENATA-1 pozivom funkcije `
+			*/
+			for (int i = 0; i < BROJ_IZVLACENJA; i++) {
+				// Generiraj slučajni broj između 0 i (BROJ_ELEMENATA-1)
+				int slucajni_broj = slucajni_broj_izmedu_0_i(BROJ_ELEMENATA);
+
+				// Povećaj broj_pojavljivanja za generirani slučajni broj
+				broj_pojavljivanja[slucajni_broj]++;
+			}
+
+			const int OCEKIVANI_BROJ_POJAVLJIVANJA = BROJ_IZVLACENJA / BROJ_ELEMENATA;
+
+			for (int i = 0; i < 50; i++) {
+				// Ispisujemo broj pojavljivanja za svaku vrijednost i uspoređujemo s očekivanim brojem
+				cout << "Broj " << i << " se pojavio " << broj_pojavljivanja[i] << " puta"
+					<< ", što je " << (broj_pojavljivanja[i] - OCEKIVANI_BROJ_POJAVLJIVANJA) << " od očekivanog" << endl;
+			}
+		}
