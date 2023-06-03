@@ -24,6 +24,7 @@
     <ProjectGuid>{03bc6a1a-1402-4113-bcb5-06d578314be9}</ProjectGuid>
     <RootNamespace>Zbrojznamenki</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>08 - Funkcije - Zbroj znamenki</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{0f0fd4a1-7a5e-465a-8e17-ab3008c34d21}</ProjectGuid>
     <RootNamespace>Kartaškeigre1Karte</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>15 - Objekti - Kartaške igre 1 - Karte</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

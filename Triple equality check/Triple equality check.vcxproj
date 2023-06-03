@@ -24,6 +24,7 @@
     <ProjectGuid>{fb359a95-d935-4cb9-99fa-cc1a0fd29456}</ProjectGuid>
     <RootNamespace>Tripleequalitycheck</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>10 - Funkcije - Triple equality check</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

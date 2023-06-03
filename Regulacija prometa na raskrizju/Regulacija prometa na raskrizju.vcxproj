@@ -24,6 +24,7 @@
     <ProjectGuid>{2bf06287-783d-4eb7-8074-916adeec138f}</ProjectGuid>
     <RootNamespace>Regulacijaprometanaraskrizju</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>14 - Objekti - Regulacija prometa na raskrizju</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

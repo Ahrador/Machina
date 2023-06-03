@@ -7,11 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Razni zadaci s interneta", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - Operatori - KrizicKruzic", "KrizicKruzic\KrizicKruzic.vcxproj", "{60370262-72A5-4EFE-B9BE-F5297BC028BD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ispis svih ASCII znakova", "Ispis svih ASCII znakova\Ispis svih ASCII znakova.vcxproj", "{29BAFB61-6ADA-4499-9F81-4A1816E121A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Flow control - Ispis svih ASCII znakova", "Ispis svih ASCII znakova\Ispis svih ASCII znakova.vcxproj", "{29BAFB61-6ADA-4499-9F81-4A1816E121A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FizzBuzz", "FizzBuzz\FizzBuzz.vcxproj", "{D6A90083-843C-42BF-B527-2BF19F6579B2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Flow control - FizzBuzz", "FizzBuzz\FizzBuzz.vcxproj", "{D6A90083-843C-42BF-B527-2BF19F6579B2}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skoro pa pravi Šah", "Skoro pa pravi Šah\Skoro pa pravi Šah.vcxproj", "{27C3C7D0-8243-475D-878F-BC13646543A8}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 - Nizovi - Skoro pa pravi Šah", "Skoro pa pravi Šah\Skoro pa pravi Šah.vcxproj", "{27C3C7D0-8243-475D-878F-BC13646543A8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 3 - Nizovi i petlje", "Predavanje 3 - Nizovi i petlje\Predavanje 3 - Nizovi i petlje.vcxproj", "{8B76689A-420A-489B-AA8B-D9C42283DDAA}"
 EndProject
@@ -23,13 +23,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vježbanje - Petlje", "Vje�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 4 - Funkcije", "Predavanje 4 - Funkcije\Predavanje 4 - Funkcije.vcxproj", "{64DEA122-90F8-4F76-80D3-3F9031FB9D64}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Zbroj znamenki", "Zbroj znamenki\Zbroj znamenki.vcxproj", "{03BC6A1A-1402-4113-BCB5-06D578314BE9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 - Funkcije - Zbroj znamenki", "Zbroj znamenki\Zbroj znamenki.vcxproj", "{03BC6A1A-1402-4113-BCB5-06D578314BE9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prosjek niza", "Prosjek niza\Prosjek niza.vcxproj", "{90147497-7B3F-4BAD-A39A-6C0267A685B6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 - Funkcije - Prosjek niza", "Prosjek niza\Prosjek niza.vcxproj", "{90147497-7B3F-4BAD-A39A-6C0267A685B6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Triple equality check", "Triple equality check\Triple equality check.vcxproj", "{FB359A95-D935-4CB9-99FA-CC1A0FD29456}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 - Funkcije - Triple equality check", "Triple equality check\Triple equality check.vcxproj", "{FB359A95-D935-4CB9-99FA-CC1A0FD29456}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Repetitorij gramatike funkcija", "Repetitorij gramatike funkcija\Repetitorij gramatike funkcija.vcxproj", "{7D654701-F34F-43B5-889E-1D628E2AFD28}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "11 - Funkcije - Repetitorij gramatike funkcija", "Repetitorij gramatike funkcija\Repetitorij gramatike funkcija.vcxproj", "{7D654701-F34F-43B5-889E-1D628E2AFD28}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vježbanje - Petlje, 2. dio", "Vježbanje - Petlje, 2. dio\Vježbanje - Petlje, 2. dio.vcxproj", "{9F1A9981-35DB-443E-991C-E8FFFE90790B}"
 EndProject
@@ -47,19 +47,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje -
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 6 - Vježbanje - Coin acceptor zadatak", "Predavanje 6 - Vježbanje - Coin acceptor zadatak\Predavanje 6 - Vježbanje - Coin acceptor zadatak.vcxproj", "{D142D362-AFA0-47A6-AA63-61EF6B1E10D7}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #1 - Karte", "Kartaške igre - #1 - Karte\Kartaške igre - #1 - Karte.vcxproj", "{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 - Objekti - Kartaške igre 1 - Karte", "Kartaške igre - #1 - Karte\Kartaške igre - #1 - Karte.vcxproj", "{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #2 - osnovni Poker engine", "Kartaške igre - #2 - osnovni Poker engine\Kartaške igre - #2 - osnovni Poker engine.vcxproj", "{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "16 - Objekti - Kartaške igre 2 - osnovni Poker engine", "Kartaške igre - #2 - osnovni Poker engine\Kartaške igre - #2 - osnovni Poker engine.vcxproj", "{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 - Operatori - Luhn Algoritam", "Luhn Algoritam\Luhn Algoritam.vcxproj", "{9A3866DD-6177-4719-A9BB-E67F6ECCC184}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Regulacija prometa na raskrizju", "Regulacija prometa na raskrizju\Regulacija prometa na raskrizju.vcxproj", "{2BF06287-783D-4EB7-8074-916ADEEC138F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 - Objekti - Regulacija prometa na raskrizju", "Regulacija prometa na raskrizju\Regulacija prometa na raskrizju.vcxproj", "{2BF06287-783D-4EB7-8074-916ADEEC138F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 7 - Function overloading, switch, headeri, STL string", "Predavanje 7 - Function overloading, switch, headeri, STL string\Predavanje 7 - Function overloading, switch, headeri, STL string.vcxproj", "{185E786F-054A-4EFE-A937-58FB148BA489}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Predavanja", "Predavanja", "{F0BF0F67-0D43-4BB0-85C7-DC0215C30726}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadatci", "Zadatci", "{82B5662F-2C67-452F-9451-6C0CF7958483}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dodatna objašnjenja za razne koncepte", "Dodatna objašnjenja za razne koncepte", "{124F5DC0-2A6C-448B-97B3-BD1367CF5975}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadatci (s interneta)", "Zadatci (s interneta)", "{C7383C56-E641-4A7F-916E-08BF0FB22F73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -290,13 +294,32 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{3810D59B-EAB5-484A-93C0-8AAE79F87BAB} = {C7383C56-E641-4A7F-916E-08BF0FB22F73}
+		{60370262-72A5-4EFE-B9BE-F5297BC028BD} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{29BAFB61-6ADA-4499-9F81-4A1816E121A3} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{D6A90083-843C-42BF-B527-2BF19F6579B2} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{27C3C7D0-8243-475D-878F-BC13646543A8} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 		{8B76689A-420A-489B-AA8B-D9C42283DDAA} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{D2EF6963-94AF-48E8-894F-F8B247CA13A5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{12688934-7E5B-4F7F-A05D-4938A2D93BF5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{3FF5C96D-72CE-4CC0-9EE3-4A8555443DEE} = {C7383C56-E641-4A7F-916E-08BF0FB22F73}
 		{64DEA122-90F8-4F76-80D3-3F9031FB9D64} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{03BC6A1A-1402-4113-BCB5-06D578314BE9} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{90147497-7B3F-4BAD-A39A-6C0267A685B6} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{FB359A95-D935-4CB9-99FA-CC1A0FD29456} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{7D654701-F34F-43B5-889E-1D628E2AFD28} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{9F1A9981-35DB-443E-991C-E8FFFE90790B} = {C7383C56-E641-4A7F-916E-08BF0FB22F73}
 		{4AEC95CF-5BEE-4BFD-8E7A-213DCBB31B14} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{165E2906-3BA4-4046-A01E-E80A006429E9} = {C7383C56-E641-4A7F-916E-08BF0FB22F73}
+		{31C8A115-C0FA-416A-B3A1-074961D87AB1} = {C7383C56-E641-4A7F-916E-08BF0FB22F73}
+		{F1FACFBE-40E9-421A-AC38-5510CB42DB56} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
+		{12E8F977-BEA6-4C62-AF40-0A5729ED1116} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
 		{2AF07285-0BE7-4962-8DB2-A286904093B8} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{D142D362-AFA0-47A6-AA63-61EF6B1E10D7} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{0F0FD4A1-7A5E-465A-8E17-AB3008C34D21} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{5C7FF9E7-8952-4767-844D-37A2AE02BEE9} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{9A3866DD-6177-4719-A9BB-E67F6ECCC184} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{2BF06287-783D-4EB7-8074-916ADEEC138F} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 		{185E786F-054A-4EFE-A937-58FB148BA489} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
