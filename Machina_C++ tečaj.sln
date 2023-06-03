@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Razni zadaci s interneta", "Machina_zadatci\Machina_zadatci.vcxproj", "{3810D59B-EAB5-484A-93C0-8AAE79F87BAB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KrizicKruzic", "KrizicKruzic\KrizicKruzic.vcxproj", "{60370262-72A5-4EFE-B9BE-F5297BC028BD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - Operatori - KrizicKruzic", "KrizicKruzic\KrizicKruzic.vcxproj", "{60370262-72A5-4EFE-B9BE-F5297BC028BD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ispis svih ASCII znakova", "Ispis svih ASCII znakova\Ispis svih ASCII znakova.vcxproj", "{29BAFB61-6ADA-4499-9F81-4A1816E121A3}"
 EndProject
@@ -51,9 +51,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #1 - Karte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kartaške igre - #2 - osnovni Poker engine", "Kartaške igre - #2 - osnovni Poker engine\Kartaške igre - #2 - osnovni Poker engine.vcxproj", "{5C7FF9E7-8952-4767-844D-37A2AE02BEE9}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Luhn Algoritam", "Luhn Algoritam\Luhn Algoritam.vcxproj", "{9A3866DD-6177-4719-A9BB-E67F6ECCC184}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 - Operatori - Luhn Algoritam", "Luhn Algoritam\Luhn Algoritam.vcxproj", "{9A3866DD-6177-4719-A9BB-E67F6ECCC184}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Regulacija prometa na raskrizju", "Regulacija prometa na raskrizju\Regulacija prometa na raskrizju.vcxproj", "{2BF06287-783D-4EB7-8074-916ADEEC138F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Predavanje 7 - Function overloading, switch, headeri, STL string", "Predavanje 7 - Function overloading, switch, headeri, STL string\Predavanje 7 - Function overloading, switch, headeri, STL string.vcxproj", "{185E786F-054A-4EFE-A937-58FB148BA489}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Predavanja", "Predavanja", "{F0BF0F67-0D43-4BB0-85C7-DC0215C30726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadatci", "Zadatci", "{82B5662F-2C67-452F-9451-6C0CF7958483}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -271,9 +277,27 @@ Global
 		{2BF06287-783D-4EB7-8074-916ADEEC138F}.Release|x64.Build.0 = Release|x64
 		{2BF06287-783D-4EB7-8074-916ADEEC138F}.Release|x86.ActiveCfg = Release|Win32
 		{2BF06287-783D-4EB7-8074-916ADEEC138F}.Release|x86.Build.0 = Release|Win32
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Debug|x64.ActiveCfg = Debug|x64
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Debug|x64.Build.0 = Debug|x64
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Debug|x86.ActiveCfg = Debug|Win32
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Debug|x86.Build.0 = Debug|Win32
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Release|x64.ActiveCfg = Release|x64
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Release|x64.Build.0 = Release|x64
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Release|x86.ActiveCfg = Release|Win32
+		{185E786F-054A-4EFE-A937-58FB148BA489}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B76689A-420A-489B-AA8B-D9C42283DDAA} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{D2EF6963-94AF-48E8-894F-F8B247CA13A5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{12688934-7E5B-4F7F-A05D-4938A2D93BF5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{64DEA122-90F8-4F76-80D3-3F9031FB9D64} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{4AEC95CF-5BEE-4BFD-8E7A-213DCBB31B14} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{2AF07285-0BE7-4962-8DB2-A286904093B8} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{D142D362-AFA0-47A6-AA63-61EF6B1E10D7} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{185E786F-054A-4EFE-A937-58FB148BA489} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}
