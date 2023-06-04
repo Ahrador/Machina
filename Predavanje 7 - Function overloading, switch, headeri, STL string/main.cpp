@@ -1,18 +1,24 @@
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
-
-// Predavanje 7 - Function overloading, switch, headeri, STL string
+ 
+// Predavanje 7 - Switch, Function overloading, headeri, STL string
 
 /*
-* Timestamps:
-12:13 - switch-case
-12:33 - Function overloading
-13:12 - Zadatak: semafor
-13:22 - Podjela klasa radi modularnosti (header za deklaracije, source za definicije)
-14:16 - Function overloading (nast.)
-14:37 - STL string
+Timestamps:
+12:13 - if else / switch case
+12:33 - function overloading
+12:47 ---- setPosition putem struct
+12:51 ---- SFML setPosition
+12:53 ---- Razlika izmedu C++ i C# compilera za function overload ?
+13:03 - Pauza 10 min (zadatak na satu: semafor sa if else i switch)
+13:12 - Semafor zadatak
+13:22 - Podjela klasa radi modularnosti (header za deklaracije), (.cpp za definicije)
+14:16 - Overloading 2
+14:21 - Pauza 15 min
+14:37 - Stringovi
 */
 
+// SWITCH case
 
 enum class SpellType {
 	FIRE,
@@ -42,17 +48,17 @@ int main() {
 	break;
 	case SpellType::EARTH:
 	{
-		cout << "Napadam te vatrom!" << endl;
+		cout << "Napadam te zemljotresom!" << endl;
 	}
 	break;
 	case SpellType::WIND:
 	{
-		cout << "Napadam te tsunamijem!" << endl;
+		cout << "Napadam te tornadom!" << endl;
 	}
 	break;
 	case SpellType::UNDEAD: 
 	{
-		cout << "Napadam te tsunamijem!" << endl;
+		cout << "Napadam te čupakabarom!" << endl;
 	}
 	// u default se ulazi ako nijedna gore ne prode
 	default:
@@ -61,4 +67,26 @@ int main() {
 		//crash_app();
 		break;
 	}
+
+	enum class BojaKarte {
+		KARO, HERC, TREF, PIK
+	};
+
+	BojaKarte boja = BojaKarte::HERC;
+
+	switch (boja) 
+	{
+	case BojaKarte::KARO:
+	case BojaKarte::HERC:
+	{ cout << "Imam crvenu kartu." << endl; } 
+	break; 
+	case BojaKarte::TREF:   
+	case BojaKarte::PIK:
+	{ cout << "Imam crnu kartu." << endl; }
+
+		break;
+	default:
+		break;
+	}
+
 }

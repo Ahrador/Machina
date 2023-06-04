@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{97a48425-0d56-47fe-9d28-3fe20bcb0af3}</ProjectGuid>
-    <RootNamespace>Raznizadatcisinterneta</RootNamespace>
+    <ProjectGuid>{df1fc8c0-67d5-4ad8-8a68-95e3d2685f4f}</ProjectGuid>
+    <RootNamespace>Predavanje7Functionoverload</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
