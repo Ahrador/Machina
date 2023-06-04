@@ -24,6 +24,7 @@
     <ProjectGuid>{d142d362-afa0-47a6-aa63-61ef6b1e10d7}</ProjectGuid>
     <RootNamespace>Predavanje6VježbanjeCoinacceptorzadatak</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>6 - Vježbanje - Coin acceptor zadatak</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

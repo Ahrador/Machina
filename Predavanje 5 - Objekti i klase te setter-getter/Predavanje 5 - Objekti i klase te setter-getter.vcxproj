@@ -24,6 +24,7 @@
     <ProjectGuid>{4aec95cf-5bee-4bfd-8e7a-213dcbb31b14}</ProjectGuid>
     <RootNamespace>Predavanje5Objektiiklasetesettergetter</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>5 - Objekti i klase te setter-getter</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

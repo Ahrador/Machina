@@ -24,7 +24,7 @@
     <ProjectGuid>{185e786f-054a-4efe-a937-58fb148ba489}</ProjectGuid>
     <RootNamespace>Predavanje7FunctionoverloadingswitchheaderiSTLstring</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Predavanje 7 - Switch case</ProjectName>
+    <ProjectName>7 - Switch case</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{12688934-7e5b-4f7f-a05d-4938a2d93bf5}</ProjectGuid>
     <RootNamespace>Predavanje1Varijableitipovipodataka</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>1 - Varijable i tipovi podataka</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
