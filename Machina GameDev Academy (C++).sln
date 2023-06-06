@@ -57,6 +57,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Semafor zadatak & Heade
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Stringovi", "Predavanja\7 - Stringovi\7 - Stringovi.vcxproj", "{AD46F619-AF44-4A5D-90CF-666145628F07}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - Vektori", "Predavanja\8 - Vektori\8 - Vektori.vcxproj", "{0F8CA5E6-5693-4722-92EE-780270DC59A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -257,6 +259,14 @@ Global
 		{AD46F619-AF44-4A5D-90CF-666145628F07}.Release|x64.Build.0 = Release|x64
 		{AD46F619-AF44-4A5D-90CF-666145628F07}.Release|x86.ActiveCfg = Release|Win32
 		{AD46F619-AF44-4A5D-90CF-666145628F07}.Release|x86.Build.0 = Release|Win32
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Debug|x64.ActiveCfg = Debug|x64
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Debug|x64.Build.0 = Debug|x64
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Debug|x86.Build.0 = Debug|Win32
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Release|x64.ActiveCfg = Release|x64
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Release|x64.Build.0 = Release|x64
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Release|x86.ActiveCfg = Release|Win32
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -286,6 +296,7 @@ Global
 		{54F81A28-5805-4F51-90C4-8AA72CE07B0B} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 		{C8834C99-E8C6-48DF-9135-CE4E9130A7FC} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{AD46F619-AF44-4A5D-90CF-666145628F07} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{0F8CA5E6-5693-4722-92EE-780270DC59A5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}
