@@ -21,35 +21,32 @@ struct Karta {
 	int broj_karte;
 };
 
-// Funkcija koja joj daje slučajnu vrijednost
-Karta generiranjeSlucajneKarte() {
+// Funkcija koja generira slučajnu kartu
+Karta generiranjeSlucajneKarte() { 
+	// Generacija slučajnih vrijednosti za boju i broj karte
 	string boje[] = { "Crvena", "Zelena", "Crna", "Plava", "Zuta" };
-	int brojevi[] = { 1,2,3,4,5,6,7,8,9,10,11 };
 
-	// Seed za generiranje slučajnih brojeva
-	srand(static_cast<unsigned int>(time(0)));
+	// Generiranje slučajnog broja od 1 do 10 za broj karte
+	int slucajni_broj_karte = (rand() % 10) + 1; 
 
-	// Generacija slučajnih indeksa za boju i vrijednost karte
-	int slucajni_index_boje = rand() % 5;
-	int slucajni_index_broja = rand() % 11;
+	// Generiranje slučajnog indeksa za boju
+	int slucajni_index_boje = (rand() % 5); 
 
-	// Stvori novu kartu s generiranom bojom i vrijednošću
+	// Stvaranje nove karte s generiranim vrijednostima
 	Karta nova_karta;
 	nova_karta.boja_karte = boje[slucajni_index_boje];
-	nova_karta.broj_karte = brojevi[slucajni_index_broja];
+	nova_karta.broj_karte = slucajni_broj_karte;
 
 	// Vraćanje nove karte
 	return nova_karta;
 }
 
-
 int main() {
-	// Instanciranje i poziv funkcije
+	srand(time(0)); // Postavljanje seeda na trenutno vrijeme 
+
 	Karta karta1 = generiranjeSlucajneKarte();
 
 	// Ispis rezultata
-	cout << "Boja: " << karta1.boja_karte << endl;
-	cout << "Broj: " << karta1.broj_karte << endl;
-
-
+	cout << "Boja: " << karta1.boja_karte << endl; 
+	cout << "Broj: " << karta1.broj_karte << endl; 
 }
