@@ -56,7 +56,7 @@ int main() {
 	} while (brojevi.size()); 
 
 	// -------------------------------------------------------------------------
-
+	
 	// Vježba
 	// Deklaracija vektora 'brojevi2' za pohranu cjelobrojnih vrijednosti
 	vector<int> brojevi2; 
