@@ -109,7 +109,7 @@ int main() {
 
 }
 // -----------------------------------------------------------------------
-*/
+
 // Liste - lista je varijabla
 
 bool desila_se_pobjeda(char polje[], int max_size) { // max size za ogranicit to polje

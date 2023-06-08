@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - Uvod u SFML", "Predavan
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Funkcije - Procjena kvalitete rand() funkcije", "Zadatci\06 - Funkcije - Procjena kvalitete rand() funkcije\06 - Funkcije - Procjena kvalitete rand() funkcije.vcxproj", "{03C4411C-75EB-4C9D-8877-E9066C18E89F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 - Funkcije - Loto 6_od_45", "Zadatci\07 - Funkcije - Loto 6_od_45\07 - Funkcije - Loto 6_od_45.vcxproj", "{122C3A80-B73B-4F75-ACD0-436E9625B776}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -287,6 +289,14 @@ Global
 		{03C4411C-75EB-4C9D-8877-E9066C18E89F}.Release|x64.Build.0 = Release|x64
 		{03C4411C-75EB-4C9D-8877-E9066C18E89F}.Release|x86.ActiveCfg = Release|Win32
 		{03C4411C-75EB-4C9D-8877-E9066C18E89F}.Release|x86.Build.0 = Release|Win32
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Debug|x64.ActiveCfg = Debug|x64
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Debug|x64.Build.0 = Debug|x64
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Debug|x86.ActiveCfg = Debug|Win32
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Debug|x86.Build.0 = Debug|Win32
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Release|x64.ActiveCfg = Release|x64
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Release|x64.Build.0 = Release|x64
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Release|x86.ActiveCfg = Release|Win32
+		{122C3A80-B73B-4F75-ACD0-436E9625B776}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -319,6 +329,7 @@ Global
 		{0F8CA5E6-5693-4722-92EE-780270DC59A5} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{6EE63883-CD64-45F8-970D-9A78ADBB8C4B} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{03C4411C-75EB-4C9D-8877-E9066C18E89F} = {82B5662F-2C67-452F-9451-6C0CF7958483}
+		{122C3A80-B73B-4F75-ACD0-436E9625B776} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}

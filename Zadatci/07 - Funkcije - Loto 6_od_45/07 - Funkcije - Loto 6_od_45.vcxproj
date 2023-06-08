@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{03c4411c-75eb-4c9d-8877-e9066c18e89f}</ProjectGuid>
-    <RootNamespace>My06FunkcijeProcjenakvaliteterandfunkcije</RootNamespace>
+    <ProjectGuid>{122c3a80-b73b-4f75-acd0-436e9625b776}</ProjectGuid>
+    <RootNamespace>My07FunkcijeLoto6od45</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
