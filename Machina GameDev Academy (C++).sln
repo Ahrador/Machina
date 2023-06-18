@@ -73,6 +73,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - Klase i obje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - Konstruktor i destruktor", "Dodatna objašnjenja za razne koncepte\Objašnjenje - Konstruktor i destruktor\Objašnjenje - Konstruktor i destruktor.vcxproj", "{618D160D-0CA7-405D-AAE5-BE52A9F14667}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)", "Predavanja\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton).vcxproj", "{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -337,6 +339,14 @@ Global
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667}.Release|x64.Build.0 = Release|x64
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667}.Release|x86.ActiveCfg = Release|Win32
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667}.Release|x86.Build.0 = Release|Win32
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Debug|x64.ActiveCfg = Debug|x64
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Debug|x64.Build.0 = Debug|x64
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Debug|x86.ActiveCfg = Debug|Win32
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Debug|x86.Build.0 = Debug|Win32
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x64.ActiveCfg = Release|x64
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x64.Build.0 = Release|x64
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x86.ActiveCfg = Release|Win32
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -374,6 +384,7 @@ Global
 		{C02EB07B-87F5-4E7B-A1CE-FF6AA2D13FCB} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 		{9B0F4D00-704A-4CAF-A6A5-342C97F35037} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
+		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}
