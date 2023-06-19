@@ -77,6 +77,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 - Posebni članovi objek
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 - Vježbanje - KrizicKruzic u SFML-u", "Predavanja\10 - Vježbanje - KrizicKruzic u SFML-u\10 - Vježbanje - KrizicKruzic u SFML-u.vcxproj", "{AA6F9447-2D8B-4881-BE66-57FB3F315477}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12 - Objekti - Vending machine 1 - Coin acceptor", "Zadatci\12 - Objekti - Vending machine 1 - Coin acceptor\12 - Objekti - Vending machine 1 - Coin acceptor.vcxproj", "{BCC67915-EA2E-43FB-A11C-780BD306A953}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -357,6 +359,14 @@ Global
 		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x64.Build.0 = Release|x64
 		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x86.ActiveCfg = Release|Win32
 		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x86.Build.0 = Release|Win32
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Debug|x64.ActiveCfg = Debug|x64
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Debug|x64.Build.0 = Debug|x64
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Debug|x86.ActiveCfg = Debug|Win32
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Debug|x86.Build.0 = Debug|Win32
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Release|x64.ActiveCfg = Release|x64
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Release|x64.Build.0 = Release|x64
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Release|x86.ActiveCfg = Release|Win32
+		{BCC67915-EA2E-43FB-A11C-780BD306A953}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -396,6 +406,7 @@ Global
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
 		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 		{AA6F9447-2D8B-4881-BE66-57FB3F315477} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{BCC67915-EA2E-43FB-A11C-780BD306A953} = {82B5662F-2C67-452F-9451-6C0CF7958483}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}
