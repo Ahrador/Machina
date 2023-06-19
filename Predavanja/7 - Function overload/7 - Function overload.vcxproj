@@ -24,6 +24,7 @@
     <ProjectGuid>{96bf0e49-d0ca-488d-a9eb-843615238843}</ProjectGuid>
     <RootNamespace>My7Functionoverload</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>07 - Function overload</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

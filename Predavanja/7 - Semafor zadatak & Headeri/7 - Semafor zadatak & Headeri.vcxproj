@@ -24,6 +24,7 @@
     <ProjectGuid>{c8834c99-e8c6-48df-9135-ce4e9130a7fc}</ProjectGuid>
     <RootNamespace>My7SemaforzadatakHeaderi</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>07 - Semafor zadatak &amp; Headeri</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

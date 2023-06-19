@@ -9,23 +9,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zadatci", "Zadatci", "{82B5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dodatna objašnjenja za razne koncepte", "Dodatna objašnjenja za razne koncepte", "{124F5DC0-2A6C-448B-97B3-BD1367CF5975}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1 - Varijable i tipovi podataka", "Predavanja\1 - Varijable i tipovi podataka\1 - Varijable i tipovi podataka.vcxproj", "{FAA265DC-912F-47EB-9502-5DB6F8C5C4BB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01 - Varijable i tipovi podataka", "Predavanja\1 - Varijable i tipovi podataka\1 - Varijable i tipovi podataka.vcxproj", "{FAA265DC-912F-47EB-9502-5DB6F8C5C4BB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2 - Operatori", "Predavanja\2 - Operatori\2 - Operatori.vcxproj", "{E0492ECC-4EAD-4F26-A30D-57F018CA5350}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02 - Operatori", "Predavanja\2 - Operatori\2 - Operatori.vcxproj", "{E0492ECC-4EAD-4F26-A30D-57F018CA5350}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3 - Nizovi i petlje", "Predavanja\3 - Nizovi i petlje\3 - Nizovi i petlje.vcxproj", "{FCC13177-3D0F-4590-BA5E-BE1AC828E366}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "03 - Nizovi i petlje", "Predavanja\3 - Nizovi i petlje\3 - Nizovi i petlje.vcxproj", "{FCC13177-3D0F-4590-BA5E-BE1AC828E366}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4 - Funkcije", "Predavanja\4 - Funkcije\4 - Funkcije.vcxproj", "{D7CDEE79-49E7-4028-900D-B8FB90BF31D6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "04 - Funkcije", "Predavanja\4 - Funkcije\4 - Funkcije.vcxproj", "{D7CDEE79-49E7-4028-900D-B8FB90BF31D6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5 - Objekti i klase te setter-getter", "Predavanja\5 - Objekti i klase te setter-getter\5 - Objekti i klase te setter-getter.vcxproj", "{7F637A08-18C3-4C6B-AF04-91CF3214B998}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "05 - Objekti i klase te setter-getter", "Predavanja\5 - Objekti i klase te setter-getter\5 - Objekti i klase te setter-getter.vcxproj", "{7F637A08-18C3-4C6B-AF04-91CF3214B998}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 - Vježbanje - Catalogue zadatak", "Predavanja\6 - Vježbanje - Catalogue zadatak\6 - Vježbanje - Catalogue zadatak.vcxproj", "{D675840E-2C8B-4F33-B96A-C24794F09066}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Vježbanje - Catalogue zadatak", "Predavanja\6 - Vježbanje - Catalogue zadatak\6 - Vježbanje - Catalogue zadatak.vcxproj", "{D675840E-2C8B-4F33-B96A-C24794F09066}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6 - Vježbanje - Coin acceptor zadatak", "Predavanja\6 - Vježbanje - Coin acceptor zadatak\6 - Vježbanje - Coin acceptor zadatak.vcxproj", "{5EDED776-A75B-4DD3-9B78-6084140880DC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Vježbanje - Coin acceptor zadatak", "Predavanja\6 - Vježbanje - Coin acceptor zadatak\6 - Vježbanje - Coin acceptor zadatak.vcxproj", "{5EDED776-A75B-4DD3-9B78-6084140880DC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Function overload", "Predavanja\7 - Function overload\7 - Function overload.vcxproj", "{96BF0E49-D0CA-488D-A9EB-843615238843}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 - Function overload", "Predavanja\7 - Function overload\7 - Function overload.vcxproj", "{96BF0E49-D0CA-488D-A9EB-843615238843}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Switch case", "Predavanja\7 - Switch case\7 - Switch case.vcxproj", "{63E294A7-5D4F-453F-B9C2-A153B2D807C9}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 - Switch case", "Predavanja\7 - Switch case\7 - Switch case.vcxproj", "{63E294A7-5D4F-453F-B9C2-A153B2D807C9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - For petlje", "Dodatna objašnjenja za razne koncepte\Objašnjenje - For petlje\Objašnjenje - For petlje.vcxproj", "{E443E545-4021-4773-A0C0-8DE357B4E98D}"
 EndProject
@@ -53,13 +53,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 - Objekti - Regulacija p
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 - Objekti - Kartaske igre 1 - Karta", "Zadatci\15 - Objekti - Kartaske igre 1 - Karta\15 - Objekti - Kartaske igre 1 - Karta.vcxproj", "{54F81A28-5805-4F51-90C4-8AA72CE07B0B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Semafor zadatak & Headeri", "Predavanja\7 - Semafor zadatak & Headeri\7 - Semafor zadatak & Headeri.vcxproj", "{C8834C99-E8C6-48DF-9135-CE4E9130A7FC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 - Semafor zadatak & Headeri", "Predavanja\7 - Semafor zadatak & Headeri\7 - Semafor zadatak & Headeri.vcxproj", "{C8834C99-E8C6-48DF-9135-CE4E9130A7FC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7 - Stringovi", "Predavanja\7 - Stringovi\7 - Stringovi.vcxproj", "{AD46F619-AF44-4A5D-90CF-666145628F07}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "07 - Stringovi", "Predavanja\7 - Stringovi\7 - Stringovi.vcxproj", "{AD46F619-AF44-4A5D-90CF-666145628F07}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - Vektori", "Predavanja\8 - Vektori\8 - Vektori.vcxproj", "{0F8CA5E6-5693-4722-92EE-780270DC59A5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 - Vektori", "Predavanja\8 - Vektori\8 - Vektori.vcxproj", "{0F8CA5E6-5693-4722-92EE-780270DC59A5}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8 - Uvod u SFML", "Predavanja\8 - Uvod u SFML\8 - Uvod u SFML.vcxproj", "{6EE63883-CD64-45F8-970D-9A78ADBB8C4B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "08 - Uvod u SFML", "Predavanja\8 - Uvod u SFML\8 - Uvod u SFML.vcxproj", "{6EE63883-CD64-45F8-970D-9A78ADBB8C4B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "06 - Funkcije - Procjena kvalitete rand() funkcije", "Zadatci\06 - Funkcije - Procjena kvalitete rand() funkcije\06 - Funkcije - Procjena kvalitete rand() funkcije.vcxproj", "{03C4411C-75EB-4C9D-8877-E9066C18E89F}"
 EndProject
@@ -73,7 +73,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - Klase i obje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Objašnjenje - Konstruktor i destruktor", "Dodatna objašnjenja za razne koncepte\Objašnjenje - Konstruktor i destruktor\Objašnjenje - Konstruktor i destruktor.vcxproj", "{618D160D-0CA7-405D-AAE5-BE52A9F14667}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)", "Predavanja\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton).vcxproj", "{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)", "Predavanja\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)\9 - Posebni članovi objekata (ctor, dtor, this pointer, singleton).vcxproj", "{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 - Vježbanje - KrizicKruzic u SFML-u", "Predavanja\10 - Vježbanje - KrizicKruzic u SFML-u\10 - Vježbanje - KrizicKruzic u SFML-u.vcxproj", "{AA6F9447-2D8B-4881-BE66-57FB3F315477}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -347,6 +349,14 @@ Global
 		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x64.Build.0 = Release|x64
 		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x86.ActiveCfg = Release|Win32
 		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42}.Release|x86.Build.0 = Release|Win32
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Debug|x64.ActiveCfg = Debug|x64
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Debug|x64.Build.0 = Debug|x64
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Debug|x86.Build.0 = Debug|Win32
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x64.ActiveCfg = Release|x64
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x64.Build.0 = Release|x64
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x86.ActiveCfg = Release|Win32
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,6 +395,7 @@ Global
 		{9B0F4D00-704A-4CAF-A6A5-342C97F35037} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
 		{618D160D-0CA7-405D-AAE5-BE52A9F14667} = {124F5DC0-2A6C-448B-97B3-BD1367CF5975}
 		{D89824DC-AEA4-4E75-908E-BEBCCAFD7A42} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
+		{AA6F9447-2D8B-4881-BE66-57FB3F315477} = {F0BF0F67-0D43-4BB0-85C7-DC0215C30726}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C475E40-FEC0-4ACD-BA97-A60FEF953DE2}

@@ -24,6 +24,7 @@
     <ProjectGuid>{6ee63883-cd64-45f8-970d-9a78adbb8c4b}</ProjectGuid>
     <RootNamespace>My8UvoduSFML</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>08 - Uvod u SFML</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

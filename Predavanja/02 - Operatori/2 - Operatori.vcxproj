@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ad46f619-af44-4a5d-90cf-666145628f07}</ProjectGuid>
-    <RootNamespace>My7Stringovi</RootNamespace>
+    <ProjectGuid>{e0492ecc-4ead-4f26-a30d-57f018ca5350}</ProjectGuid>
+    <RootNamespace>My2Operatori</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>07 - Stringovi</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,6 +24,7 @@
     <ProjectGuid>{d89824dc-aea4-4e75-908e-bebccafd7a42}</ProjectGuid>
     <RootNamespace>My9Posebničlanoviobjekatactordtorthispointersingleton</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>09 - Posebni članovi objekata (ctor, dtor, this pointer, singleton)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

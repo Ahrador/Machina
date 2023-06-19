@@ -24,6 +24,7 @@
     <ProjectGuid>{e0492ecc-4ead-4f26-a30d-57f018ca5350}</ProjectGuid>
     <RootNamespace>My2Operatori</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>02 - Operatori</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
