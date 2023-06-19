@@ -7,17 +7,24 @@ using namespace std;
 
 /*
 U ovom zadatku je cilj napraviti program koji simulira jednostavno raskrižje.
+
 - Dizajniraj i napiši objekt "TrafficLight", koji predstavlja semafor na raskrižju.
 Semafor treba moći biti u jednom od stanja za koja treba definirati i enum class
-"StanjaSemafora". U objekt dodaj i funkciju printCurrentState() koja ispisuje naziv
+"StanjaSemafora". 
+U objekt dodaj i funkciju printCurrentState() koja ispisuje naziv
 stanja u kojem se semafor nalazi.
+
 - Dizajniraj i napiši objekt "TrafficIntersection", koji predstavlja raskrižje.
 
-Raskrižje ima 4 semafora, po jedan u smjeru sjevera, juga, istoka, i zapada. Od njih se
-po 2 uvijek nalaze u jednakom stanju, i to semafori na pravcima sjever-jug i istok-zapad. Na primjer: kad sjeverni semafor prelazi u zeleno svjetlo, to isto radi i semafor na jugu. Slika u prilogu ovog zadatka predstavlja skicu takvog raskrižja.
+Raskrižje ima 4 semafora, po jedan u smjeru sjevera, juga, istoka, i zapada. 
+Od njih se po 2 uvijek nalaze u jednakom stanju, i to semafori na pravcima sjever-jug i istok-zapad. 
+Na primjer: kad sjeverni semafor prelazi u zeleno svjetlo, to isto radi i semafor na jugu. 
+Slika u prilogu ovog zadatka predstavlja skicu takvog raskrižja.
+
 - U njega dodaj i funkciju run() koja, koristeći sistemsku funkciju Sleep(), simulira
 protok vremena na raskrižju. Sleep() kao jedini argument prima trajanje pauze u
 milisekundama. Sleep() je deklarirana u #include <Windows.h>.
+
 - Nakon nekog vremena se trebaju izmijeniti stanja na semaforima, tako da prolaz bude
 slobodan vozilima u drugom pravcu.
 - Žuto svjetlo treba trajati najmanje 3 sekunde, a najviše 6. Ostala trajanja odredite
@@ -35,7 +42,7 @@ kasnije izvršene) u kojem su navedena stanja u kojem semafor može biti i njiho
 značenja. Dio o regulaciji prometa je glava 8, "PROMET NA RASKRIŽJU", i to članci 48-62.
 */
 
-// Definicija enumeracije StanjaSemafora
+// 1. Definiranje enum class "StanjaSemafora":
 enum class StanjaSemafora {
 	NEVAZECE,
 	CRVENO,
@@ -43,80 +50,99 @@ enum class StanjaSemafora {
 	ZELENO
 };
 
-// Definicija klase TrafficLight
+// Ova klasa predstavlja semafor na raskrižju
 class TrafficLight {
+private:
+	StanjaSemafora currentState; // "currentState" pamti trenutno stanje semafora 
+
 public:
 	TrafficLight() {
-		currentState = StanjaSemafora::NEVAZECE;
-	}
-	void setState(StanjaSemafora newState) {
-		currentState = newState;
+		currentState = StanjaSemafora::NEVAZECE; 
 	}
 
-	// Deklaracija funkcije koja ne prima argumente i ne vraca vrijednost 
+	void setState(StanjaSemafora state) {
+		currentState = state;
+	}
+
+	StanjaSemafora getState() {
+		return currentState;
+	}
+
 	void printCurrentState() {
-		switch (currentState) { // provjera da li je currentState jednak NEVAZECE, sto oznacava nevazece stanje semafora
+		string stateStr;
+		switch (currentState) {
 		case StanjaSemafora::NEVAZECE:
-			std::cout << "Invalid state (Flashing yellow)\n";
-			break;
+				stateStr = "NEVAZECE";
+				break;
 		case StanjaSemafora::CRVENO:
-			std::cout << "Red light\n";
+			stateStr = "CRVENO";
 			break;
 		case StanjaSemafora::ŽUTO:
-			std::cout << "Yellow light\n";
+			stateStr = "ŽUTO";
 			break;
 		case StanjaSemafora::ZELENO:
-			std::cout << "Green light\n";
+			stateStr = "ZELENO";
 			break;
 		}
-		/*
-		Kada se pozove metoda printCurrentState, ona provjerava trenutno stanje semafora
-		(currentState) i ispisuje odgovarajuću poruku na temelju vrijednosti tog stanja.
-		*/
+		cout << "Current state: " << stateStr << endl;
 	}
-private:
-	StanjaSemafora currentState;
 };
 
-// Definicija klase TrafficIntersection
 class TrafficIntersection {
+private:
+	TrafficLight northSouthLights;
+	TrafficLight eastWestLights;
+
 public:
 	TrafficIntersection() {
-		sjeverJug.setState(StanjaSemafora::ZELENO);
-		istokZapad.setState(StanjaSemafora::CRVENO);
+		// Inicijalizacija svih semafora na INVALID stanje
+		northSouthLights.setState(StanjaSemafora::NEVAZECE); 
+		eastWestLights.setState(StanjaSemafora::NEVAZECE); 
+	}
+
+	void changeLights() {
+		StanjaSemafora northSouthState = northSouthLights.getState(); 
+		StanjaSemafora eastWestState = eastWestLights.getState(); 
+
+		// Promjena stanja semafora ovisno o trenutnom stanju
+		if (northSouthState == StanjaSemafora::NEVAZECE && eastWestState == StanjaSemafora::NEVAZECE) {
+			// Početno stanje - invalid value
+			northSouthLights.setState(StanjaSemafora::NEVAZECE);
+			eastWestLights.setState(StanjaSemafora::NEVAZECE);
+			Sleep(10000); // Trajanje invalid value stanja - 10 sekundi
+		}
+		else if (northSouthState == StanjaSemafora::NEVAZECE && eastWestState == StanjaSemafora::CRVENO) {
+			// Prelazak u crveno stanje
+			northSouthLights.setState(StanjaSemafora::CRVENO);
+			eastWestLights.setState(StanjaSemafora::CRVENO);
+			Sleep(5000); // Trajanje crvenog svjetla - 5 sekundi
+		}
+		else {
+			// Regularni ciklus
+			northSouthLights.setState(StanjaSemafora::ZELENO);
+			eastWestLights.setState(StanjaSemafora::ZELENO);
+			Sleep(5000); // Trajanje zelenog svjetla - 5 sekundi
+
+			northSouthLights.setState(StanjaSemafora::ŽUTO);
+			eastWestLights.setState(StanjaSemafora::ŽUTO); 
+			Sleep(3000); // Trajanje zutog svjetla - 3 sekunde
+
+			northSouthLights.setState(StanjaSemafora::CRVENO);
+			eastWestLights.setState(StanjaSemafora::CRVENO);
+			Sleep(5000); // Trajanje crvenog svjetla - 5 sekundi
+		}
 	}
 
 	void run() {
 		while (true) {
-			sjeverJug.printCurrentState();
-			istokZapad.printCurrentState();
-			Sleep(1000);
+			northSouthLights.printCurrentState();
+			eastWestLights.printCurrentState();
 
-			// Change states
-			switch (sjeverJug.currentState) {
-			case StanjaSemafora::ZELENO:
-				sjeverJug.setState(StanjaSemafora::ŽUTO);
-				istokZapad.setState(StanjaSemafora::ŽUTO);
-				break;
-			case StanjaSemafora::ŽUTO:
-				sjeverJug.setState(StanjaSemafora::CRVENO);
-				istokZapad.setState(StanjaSemafora::ZELENO);
-				break;
-			case StanjaSemafora::CRVENO:
-				sjeverJug.setState(StanjaSemafora::ZELENO);
-				istokZapad.setState(StanjaSemafora::CRVENO);
-				break;
-			case StanjaSemafora::NEVAZECE:
-				sjeverJug.setState(StanjaSemafora::CRVENO);
-				istokZapad.setState(StanjaSemafora::CRVENO);
-				break;
-			}
+			changeLights();
+
+			Sleep(1000); // Pauza od 1 sekunde
 		}
 	}
-
-private:
-	TrafficLight sjeverJug;
-	TrafficLight istokZapad;
 };
 
 int main() {
