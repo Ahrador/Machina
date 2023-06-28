@@ -2,7 +2,7 @@
 #include <SFML/Window.hpp>
 #include <SFML/Graphics.hpp>
 
-// Krizic Kruzic putem SFML-a
+// Krizic Kruzic (SFML)
 
 int main() {
 	sf::RenderWindow prozor(sf::VideoMode(500, 451), "Krizic kruzic");
@@ -114,6 +114,6 @@ int main() {
 			}
 		}
 
-		prozor.display(); 
+		prozor.display();
 	}
 }
