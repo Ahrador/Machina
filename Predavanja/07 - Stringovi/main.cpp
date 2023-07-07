@@ -13,7 +13,7 @@ struct Ucenik {
 
 int main() {
 	// Deklaracija stringa 'tekst'
-	string tekst; 
+	string tekst;
 
 	// Dodjeljivanje vrijednosti stringu 'tekst'
 	tekst = "Ovo je neki tekst";
@@ -25,10 +25,10 @@ int main() {
 	cout << tekst << endl;
 
 	// Deklaracija objekta 'ucenik' tipa Ucenik i inicijalizacija njegovih članova
-	Ucenik ucenik { "Pero", "Peric" };
+	Ucenik ucenik{ "Pero", "Peric" };
 
 	// Dodjeljivanje vrijednosti stringu 'tekst' s konstrukcijom teksta koji koristi stringove i promjenljive
 	tekst = "Dobar dan gosp. " + ucenik.prezime + ", ...";
 
-	cout << tekst; 
+	cout << tekst;
 }

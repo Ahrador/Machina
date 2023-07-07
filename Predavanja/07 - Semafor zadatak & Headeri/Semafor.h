@@ -2,6 +2,12 @@
 #include <windows.h>
 #include <iostream>
 
+/**/
+class Semafor
+{
+};
+
+
 struct Semafor {
 	enum class Stanje {
 		Crveno, Zuto, CrvenoZuto, Zeleno, Invalid

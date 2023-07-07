@@ -24,9 +24,9 @@ int main() {
 
 	Automobil mazda;
 	mazda.upali_motor();
-	mazda.vozi(); 
-	mazda.skreni(45); 
-	mazda.koci(); 
+	mazda.vozi();
+	mazda.skreni(45);
+	mazda.koci();
 
 	onaj_na_zagrebackoj_cesti.setState(Semafor::Stanje::Crveno);
 	while (true) {
